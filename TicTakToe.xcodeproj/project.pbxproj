@@ -59,6 +59,7 @@
 		26270F872CA255C5006F3714 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				266432DE2CA24F5A006D9E71 /* ViewController.swift */,
 				26270F8A2CA25673006F3714 /* TicTakToe.swift */,
 			);
 			path = Controller;
@@ -83,12 +84,11 @@
 		266432D92CA24F5A006D9E71 /* TicTakToe */ = {
 			isa = PBXGroup;
 			children = (
+				266432DA2CA24F5A006D9E71 /* AppDelegate.swift */,
+				266432DC2CA24F5A006D9E71 /* SceneDelegate.swift */,
 				26270F872CA255C5006F3714 /* Controller */,
 				26270F862CA255BF006F3714 /* View */,
 				26270F852CA255B5006F3714 /* Model */,
-				266432DA2CA24F5A006D9E71 /* AppDelegate.swift */,
-				266432DC2CA24F5A006D9E71 /* SceneDelegate.swift */,
-				266432DE2CA24F5A006D9E71 /* ViewController.swift */,
 				266432E02CA24F5A006D9E71 /* Main.storyboard */,
 				266432E32CA24F5B006D9E71 /* Assets.xcassets */,
 				266432E52CA24F5B006D9E71 /* LaunchScreen.storyboard */,
