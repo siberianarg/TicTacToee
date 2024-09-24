@@ -47,6 +47,18 @@ class ViewController: UIViewController {
                 i.isEnabled = false
             }
         }
+        
+        if let win = game.win() {
+            if win == "Draw" {
+                winLabel.text = "It's a Draw!"
+            } else {
+                winLabel.text = "Winner \(win)"
+            }
+            
+            for i in arrayButtons {
+                i.isEnabled = false
+            }
+        }
     }
     
     func restart() {
